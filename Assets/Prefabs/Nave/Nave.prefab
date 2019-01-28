@@ -11,7 +11,7 @@ GameObject:
   - component: {fileID: 4429627054141834790}
   - component: {fileID: 1560819259}
   - component: {fileID: 7843820070292419881}
-  m_Layer: 0
+  m_Layer: 9
   m_Name: Nave
   m_TagString: Untagged
   m_Icon: {fileID: 0}
@@ -73,7 +73,7 @@ GameObject:
   - component: {fileID: 4429627054642344937}
   - component: {fileID: 4429627054642344938}
   - component: {fileID: 4429627054642344939}
-  m_Layer: 0
+  m_Layer: 9
   m_Name: Canhao
   m_TagString: Untagged
   m_Icon: {fileID: 0}
@@ -150,7 +150,7 @@ GameObject:
   - component: {fileID: 4429627055196631098}
   - component: {fileID: 4429627055196631095}
   - component: {fileID: 4429627055196631092}
-  m_Layer: 0
+  m_Layer: 9
   m_Name: Corpo
   m_TagString: Untagged
   m_Icon: {fileID: 0}
@@ -227,7 +227,7 @@ GameObject:
   - component: {fileID: 4429627055583834698}
   - component: {fileID: 4429627055583834695}
   - component: {fileID: 4429627055583834692}
-  m_Layer: 0
+  m_Layer: 9
   m_Name: Base
   m_TagString: Untagged
   m_Icon: {fileID: 0}
