@@ -33,6 +33,23 @@ public class ControladorNave : MonoBehaviour
             novoTiro.transform.position = this.transform.position;
             //Seta a direcao do novo tiro
             novoTiro.GetComponent<ControladorTiro>().velocidade = 30.0f;
+            //Seta o novo tiro como sendo do jogador
+            novoTiro.tag = "TiroJogador";
+        }
+    }
+
+    private void OnTriggerEnter(Collider other)
+    {
+        if (other.tag == "TiroInimigo")
+        {
+            // Desativar a nave
+            this.enabled = false;
+
+            //Destruir o tiro
+            Destroy(other.gameObject);
+
+            //Destruir a nave
+            Destroy(this.gameObject);
         }
     }
 }

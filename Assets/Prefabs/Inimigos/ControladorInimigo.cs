@@ -38,4 +38,19 @@ public class ControladorInimigo : MonoBehaviour
             _tempoTiro = Random.Range(2.0f, 10.0f);            
         }
     }
+
+    private void OnTriggerEnter(Collider other)
+    {
+        if (other.tag == "TiroJogador")
+        {
+            // Desativar a nave
+            this.enabled = false;
+
+            //Destruir o tiro
+            Destroy(other.gameObject);
+
+            //Destruir a nave
+            Destroy(this.gameObject);
+        }
+    }
 }
