@@ -63,6 +63,7 @@
     <Compile Include="Assets\Prefabs\Inimigos\ControladorGrupoInimigo.cs" />
     <Compile Include="Assets\Prefabs\Inimigos\ControladorInimigo.cs" />
     <Compile Include="Assets\Prefabs\Nave\ControladorNave.cs" />
+    <Compile Include="Assets\Prefabs\Nave\ControladorNovaNave.cs" />
     <Compile Include="Assets\Prefabs\Tiro\ControladorTiro.cs" />
     <Reference Include="Unity.TextMeshPro.Editor">
       <HintPath>C:/Users/Leo/Documents/Criando Objeto 3D/Library/ScriptAssemblies/Unity.TextMeshPro.Editor.dll</HintPath>
